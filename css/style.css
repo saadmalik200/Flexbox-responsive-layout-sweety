@@ -16,6 +16,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+main {
+  background-color: #eeeeee;
+  padding: 1rem 0;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -54,6 +59,7 @@ nav {
 }
 .backImg {
   background-image: url(../images/sweetBg.jpg);
+
   background-size: 155%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -94,9 +100,15 @@ nav {
   border: 1px solid rgb(225, 220, 220);
   text-align: center;
   padding: 3rem 0;
+  margin-top: 0rem;
 }
 
+.card-article {
+  /* margin: 10rem; */
+  /* padding-top: 5rem; */
+}
 .card img {
+  /* margin-top: 0; */
   width: 40%;
 }
 
@@ -158,9 +170,32 @@ nav {
     margin-bottom: 2rem;
   }
 
-  .backImgText span {
-    margin: 0;
-    color: hotpink;
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .card {
+    margin: 0rem;
+
+    background-color: #e2fcf5;
+    border: 1px solid rgb(225, 220, 220);
+    text-align: center;
+    padding: 3rem 0;
+    flex-basis: 27%;
+  }
+
+  .card h2 {
+    margin: 2rem 0;
+  }
+
+  .pink-button {
+    padding: 1rem 1.5rem;
+  }
+
+  .card-bottom {
+    flex-basis: 41%;
   }
 }
 
