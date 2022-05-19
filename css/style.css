@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 375px;
+  border: 2px solid black;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 4rem; */
+  padding: 1.5rem;
+}
+
+.sweety-logo img {
+  width: 90%;
+}
+
+.nav-buttons {
+  display: flex;
+}
+
+.top-button {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(176, 175, 175);
+  margin: 0.5rem;
+}
+
+.top-button i {
+  margin: 1.2rem;
+}
+
+.pink-button {
+  background-color: hotpink;
+  padding: 0.8rem 2.2rem;
+  border-radius: 0.5rem;
+  border: 3px solid black;
+}
+.backImg {
+  background-image: url(../images/sweetBg.jpg);
+  background-size: 155%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  /* margin-left: 2rem; */
+  text-align: left;
+  padding: 15rem 0;
+  position: relative;
+}
+
+.backImg * {
+  margin-left: 2rem;
+}
+
+.backImgText {
+  position: absolute;
+  top: 3rem;
+  width: 75%;
+}
+
+.backImgText p {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  margin: 0.8rem;
+  background-color: #e2fcf5;
+  border: 1px solid rgb(225, 220, 220);
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.card img {
+  width: 40%;
+}
+
+.card h3 {
+  margin: 1rem 0;
+}
+
+.card p {
+  margin-bottom: 3rem;
+  line-height: 3rem;
+}
