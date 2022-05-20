@@ -29,8 +29,12 @@ nav {
 }
 
 .sweety-logo img {
-  width: 90%;
+  width: 15rem;
   margin-top: 0.5rem;
+}
+
+.middle-nav {
+  display: none;
 }
 
 .nav-buttons {
@@ -203,4 +207,29 @@ nav {
 
 /* min-width 992px = 62em, large screens */
 @media only screen and (min-width: 62em) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 4rem; */
+    padding: 1.2rem;
+  }
+
+  .middle-nav {
+    display: flex;
+
+    align-self: center;
+  }
+
+  .middle-nav ul {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .middle-nav li {
+    list-style: none;
+  }
+
+  .bar-button {
+    display: none;
+  }
 }
