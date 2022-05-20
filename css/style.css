@@ -167,6 +167,14 @@ nav {
   margin-bottom: 3rem;
 }
 
+.top-button:hover {
+  background-color: deeppink;
+}
+.top-button:hover i {
+  color: white;
+  /* background-color: deeppink; */
+}
+
 /* Small screens - MOBILE */
 
 /* min-width 414px = 25.875,  If something get messed till tablet mode*/
@@ -273,13 +281,5 @@ nav {
 
   .bar-button {
     display: none;
-  }
-
-  .top-button:hover {
-    background-color: deeppink;
-  }
-  .top-button:hover i {
-    color: white;
-    /* background-color: deeppink; */
   }
 }
