@@ -1,0 +1,108 @@
+/* Small screens - MOBILE */
+
+/* min-width 414px = 25.875,  If something get messed till tablet mode*/
+
+@media only screen and (min-width: 25.875em) {
+  body {
+  }
+}
+
+/* Medium screens - TABLET */
+/* min-width 768px = 48em, medium screens */
+
+@media only screen and (min-width: 48em) {
+  .backImg {
+    background-image: url(../images/sweetBg.jpg);
+    background-size: cover;
+
+    background-position: center 70%;
+    /* margin-left: 2rem; */
+    text-align: left;
+    padding: 16rem 0;
+    position: relative;
+  }
+
+  .backImg * {
+    margin-left: 3rem;
+  }
+
+  .backImgText {
+    position: absolute;
+    top: 7rem;
+    width: 90%;
+  }
+
+  .backImgText h1 {
+    font-size: 2em;
+  }
+
+  .backImgText p {
+    font-size: 1.2em;
+    line-height: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .card {
+    margin: 0rem;
+
+    background-color: #e2fcf5;
+    border: 1px solid rgb(225, 220, 220);
+    text-align: center;
+    padding: 3rem 0;
+    flex-basis: 27%;
+  }
+
+  .card h2 {
+    margin: 2rem 0;
+  }
+
+  .pink-button {
+    padding: 1rem 1.5rem;
+  }
+
+  .card-bottom {
+    flex-basis: 41%;
+  }
+}
+
+/* Large screens - DESKTOP */
+
+/* min-width 992px = 62em, large screens */
+@media only screen and (min-width: 62em) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 4rem; */
+    padding: 1.2rem;
+  }
+
+  .middle-nav {
+    display: flex;
+
+    align-self: center;
+  }
+
+  .middle-nav ul {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .middle-nav li:hover {
+    border-bottom: 2px solid deeppink;
+  }
+
+  .middle-nav li {
+    list-style: none;
+  }
+
+  .bar-button {
+    display: none;
+  }
+}
